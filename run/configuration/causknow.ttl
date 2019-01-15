@@ -25,7 +25,7 @@ tdb2:GraphTDB rdfs:subClassOf ja:Model .
 
 <#service1> rdf:type fuseki:Service ;
 	fuseki:name "causknow" ; # Dataset name
-	fuseki:serviceQuery "query" ; # SPARQL query service
+	fuseki:serviceQuery "query", "sparql" ; # SPARQL query service
 	fuseki:serviceUpdate "update" ;
 	fuseki:serviceUpload "upload" ; # Non-SPARQL upload service
 	fuseki:serviceReadWriteGraphStore "data" ; # SPARQL Graph store protocol (read and write)
